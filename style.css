@@ -1,0 +1,448 @@
+/* CSS Dosyası */
+
+/* Boşlukları Sıfırla */
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #sayfa{
+       max-width:1024px;
+        border-style: solid;
+        border-color:black;
+        min-height: 900px;
+        border-width: 1px;
+        margin: auto;
+        
+    }
+
+    /* Banner */
+
+    #banner{
+
+        width: 1024px;
+        height: 120px;
+        border-style: solid;
+        border-color:black;
+        border-width: 1px;
+        background-color: slategrey;
+        margin: auto;
+        background-image: url(images/header.jpg);
+        background-size: 850px;
+      
+
+    }
+
+    /* Logo */
+
+    #logo{
+
+        width: 120px;
+        height: 70px;
+        border-style: solid;
+        border-color:greenyellow;
+        border-width: 1px;
+        box-shadow:0px 0px 3px 3px  greenyellow;
+        background-color: white;
+        position: relative;top: 7px;left: 7px;
+        float: left;
+        
+
+        
+    }
+    #wowbilgilogo{
+        width: 120px;
+        height: 70px;
+        
+    }
+    #wowbilgititle{
+        float: left;
+        color: yellowgreen;
+        position: relative; left: 140px; bottom: 70px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: larger;
+       
+    }
+    #wowbilgisubtitle{
+        margin: auto;
+        float: left;
+        color: gold;
+        position: relative; left: 140px; bottom: 55px;
+        text-align: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: smaller;
+    }
+   
+        
+    /* Social */
+
+    #social{
+        width: 150px;
+        height: 30px;
+        border-style: none;
+        border-color:black;
+        
+        
+        float: right;
+        position: relative;top: 40px; right: 7px;
+        text-align: right;
+       
+    }
+    
+    #raideriologo{
+        width: 30px;
+        border-radius: 7px;
+
+        
+    }
+    #raidbotslogo{
+        width: 30px;
+        border-radius: 7px;
+    }
+    #twitterlogo{
+        width: 30px;
+        border-radius: 7px;
+    }
+    
+    /* ANAMENU */
+
+    #anamenu{
+        width: 1024px;
+        height: 60px;
+        border-style: solid;
+        border-color:black;
+        border-width: 1px;
+        background-color: slategrey;
+        margin: auto;
+        text-align: center;
+        background-image: url(images/anamenu.jpg);
+        background-size: 900px;
+        overflow: hidden;
+      
+       
+        
+    
+       
+    }
+
+    #anamenu ul{
+        list-style-type: none;
+    }
+
+   
+    
+
+    #anamenu ul li{
+        width: 70px;
+        border-style: solid;
+        border-width: 0.2px;
+        border-radius: 5px;
+        border-color: green;
+        background-color: black;
+        float:left;
+        padding:8px;
+        margin-left: 15px;
+        position: relative; top: 15px; left: 10px;
+        text-align: center;
+        box-shadow: 0px 0px 2px 2px greenyellow;
+        
+        
+    }
+    
+    #anamenu ul a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        font-weight: bolder;
+        text-decoration: none;
+        
+        
+    }
+
+    #anamenu ul a:link{
+        color: greenyellow;
+        text-align: center;
+        
+    }
+    #anamenu ul a:visited{
+        color: gray;
+    }
+    #anamenu ul a:hover{
+        color: green;
+        text-decoration: none;
+        
+       
+    }
+    #anamenu ul a:active{
+        color: greenyellow;
+    }
+
+    
+
+    /* Content ve Yan Menü Kodları */
+
+    #content{
+        width: 824px;
+        min-height: 1000px;
+        border-style: solid;
+        border-width: 1px;
+        background-color: #1C2833 ;
+        background-size: 398px;
+        float: left;
+        
+
+    }
+
+    .wowexps{
+        width: 600px;
+        position: relative;left: 100px; top: 70px;
+    }
+    #yanmenu{
+        width: 196px;
+        min-height: 1000px;
+        border-style: solid;
+        
+        border-width: 1px;
+        background-color: black;
+        background-image: url(images/illidan4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: right;
+        
+    }
+    .wowpic{
+        float: left;
+        width: 300px;
+        margin:30px;
+        margin-top: 80px;
+
+    }
+    .wowinfo{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        color: white;
+        margin-left: 10px;
+        margin-top: 25px;
+        text-indent: 10px;
+        overflow: hidden;
+
+    }
+    .baslik1{
+        margin-top: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gold;
+        font-size: 25px;
+
+    }
+    .yanbaslik1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 10px;
+        color: gold;
+    }
+
+   .algethar{
+    width: 160px;
+    margin-left: 16px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 1px red;
+   }
+    #algetharb{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        color: white;
+        margin-top: 5px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+    .azure{
+        width: 160px;
+    margin-left: 16px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 1px aqua;
+
+    }
+    #azureb{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        color: white;
+        margin-top: 5px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+
+    .sbg{
+        width: 160px;
+    margin-left: 16px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: purple;
+    border-width: 1px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 1px purple;
+    }
+    #sbgb{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        text-align:center;
+        color: white;
+        margin-top: 5px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+
+    .cos{
+        width: 160px;
+    margin-left: 16px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: violet;
+    border-width: 1px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 1px violet;
+    }
+    #cosb{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        text-align:center;
+        color: white;
+        margin-top: 5px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+
+    .tjs{
+        width: 160px;
+    margin-left: 16px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: 	#00A36C;
+    border-width: 1px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 1px #00A36C;
+    }
+    
+    #tjsb{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        text-align:center;
+        color: white;
+        margin-top: 5px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+
+    .hov{
+        width: 160px;
+    margin-left: 16px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: gold;
+    border-width: 1px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 1px gold;
+    }
+    #hallsb{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        text-align:center;
+        color: white;
+        margin-top: 5px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+    .ruby{
+        width: 160px;
+        margin-left: 16px;
+        margin-top: 10px;
+        border-style: solid;
+        border-color: brown;
+        border-width: 1px;
+        border-radius: 7px;
+        box-shadow: 0px 0px 5px 1px brown;
+    }
+    #rubyb{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        text-align:center;
+        color: white;
+        margin-top: 5px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+    
+
+
+
+    /* Alt menu */
+
+    #altmenu{
+        width: 1024px;
+        height: 60px;
+        border-style: solid;
+        border-width: 1px;
+        background-color: darkslategrey;
+        background-image: url(images/anamenu.jpg);
+        background-size: 1024px;
+        float: left;
+        text-align: center;
+    }
+
+    #altmenu a{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: purple;
+        text-decoration: none;
+    
+    }
+
+    #altmenu a:hover{
+        color: violet;
+        text-decoration: none;
+    }
+
+    .kucukmetin{
+        font-size: 10px;
+        color: yellowgreen;
+        margin-top: 10px;
+        font-weight: bolder;
+    }
+
+
+
+    /* Kayıt */
+
+    #kayitol{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        margin: auto;
+        padding-left: 20px;
+        padding-top: 20px;
+        color: gold;
+    }
+
+    #kayitformu{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        color: white;
+        margin: auto;
+        padding: 10px;
+        border-style: solid;
+        border-color: yellowgreen;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px 5px yellowgreen;
+
+    }
+    
